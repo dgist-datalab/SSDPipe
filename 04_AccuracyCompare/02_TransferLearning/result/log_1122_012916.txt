@@ -1,0 +1,31 @@
+========================================
+              Arguments
+acc_plot: False
+ae_compress_rate: 16
+auto_encoder: False
+batch_size: 128
+device: cuda
+epochs: 1000
+evaluate: True
+fine_tuning: False
+freeze: None
+freeze_to: 4
+gpu: 0
+initial_lr: 0.1
+loss_plot: False
+lr_period: 100
+lr_scheduler_patience: 30
+lr_threshold: 1e-09
+num_class: 963
+percent: 100
+print_freq: 100
+print_freq_val: 200
+result: result
+resume: result/model_best.pth
+tr_step: 0
+weight_decay: 0.0005
+workers: 8
+========================================
+loaded result/model_best.pth, epoch 21
+[TEST 0][0/189], loss: 0.558 (avg: 0.558)
+ * TEST metrics: 0.72346, loss: 1.28577, Top-5 Accuracy: 0.90228

@@ -1,0 +1,66 @@
+========================================
+              Arguments
+acc_plot: False
+ae_compress_rate: 16
+auto_encoder: False
+batch_size: 256
+device: cuda
+epochs: 1000
+evaluate: False
+fine_tuning: False
+freeze: True
+freeze_to: 4
+gpu: 0
+initial_lr: 0.001
+loss_plot: False
+lr_period: 100
+lr_scheduler_patience: 10
+lr_threshold: 1e-09
+num_class: 970
+percent: 87
+print_freq: 500
+print_freq_val: 200
+result: result_7d
+resume: result_7d/model_last.pth
+tr_step: 0
+weight_decay: 0.0005
+workers: 16
+========================================
+loaded result_7d/model_last.pth, epoch 24
+Freezing all params, insert AE...
+[TRAIN 0/1000][0/4227], loss: 0.80927 (avg: 0.80927), lr: 0.0010000000
+[TRAIN 0/1000][500/4227], loss: 0.68049 (avg: 0.84196), lr: 0.0010000000
+[TRAIN 0/1000][1000/4227], loss: 0.86266 (avg: 0.84262), lr: 0.0010000000
+[TRAIN 0/1000][1500/4227], loss: 0.81434 (avg: 0.84246), lr: 0.0010000000
+[TRAIN 0/1000][2000/4227], loss: 0.79220 (avg: 0.84128), lr: 0.0010000000
+[TRAIN 0/1000][2500/4227], loss: 0.93037 (avg: 0.84173), lr: 0.0010000000
+[TRAIN 0/1000][3000/4227], loss: 0.85489 (avg: 0.84299), lr: 0.0010000000
+[TRAIN 0/1000][3500/4227], loss: 0.77600 (avg: 0.84196), lr: 0.0010000000
+[TRAIN 0/1000][4000/4227], loss: 0.86048 (avg: 0.84198), lr: 0.0010000000
+[TEST 0][0/190], loss: 0.566 (avg: 0.566)
+ * Epoch 0 TEST metrics: 0.72105, (best: 0.72105), loss: 1.15867, Top-5 acc: 0.90713
+saving best checkpoint (epoch: 0)
+[TRAIN 1/1000][0/4227], loss: 0.98334 (avg: 0.98334), lr: 0.0009997533
+[TRAIN 1/1000][500/4227], loss: 0.79280 (avg: 0.84121), lr: 0.0009997533
+[TRAIN 1/1000][1000/4227], loss: 0.76253 (avg: 0.84037), lr: 0.0009997533
+[TRAIN 1/1000][1500/4227], loss: 0.86498 (avg: 0.84109), lr: 0.0009997533
+[TRAIN 1/1000][2000/4227], loss: 0.89530 (avg: 0.84062), lr: 0.0009997533
+[TRAIN 1/1000][2500/4227], loss: 0.84288 (avg: 0.83977), lr: 0.0009997533
+[TRAIN 1/1000][3000/4227], loss: 0.99987 (avg: 0.83979), lr: 0.0009997533
+[TRAIN 1/1000][3500/4227], loss: 0.77361 (avg: 0.83956), lr: 0.0009997533
+[TRAIN 1/1000][4000/4227], loss: 0.70097 (avg: 0.84077), lr: 0.0009997533
+[TEST 1][0/190], loss: 0.588 (avg: 0.588)
+ * Epoch 1 TEST metrics: 0.71961, (best: 0.72105), loss: 1.16996, Top-5 acc: 0.90599
+[TRAIN 2/1000][0/4227], loss: 0.83316 (avg: 0.83316), lr: 0.0009990134
+[TRAIN 2/1000][500/4227], loss: 0.77247 (avg: 0.83373), lr: 0.0009990134
+[TRAIN 2/1000][1000/4227], loss: 0.73184 (avg: 0.83722), lr: 0.0009990134
+[TRAIN 2/1000][1500/4227], loss: 0.91874 (avg: 0.83695), lr: 0.0009990134
+[TRAIN 2/1000][2000/4227], loss: 0.86205 (avg: 0.83715), lr: 0.0009990134
+[TRAIN 2/1000][2500/4227], loss: 0.93413 (avg: 0.83814), lr: 0.0009990134
+[TRAIN 2/1000][3000/4227], loss: 0.78627 (avg: 0.83884), lr: 0.0009990134
+[TRAIN 2/1000][3500/4227], loss: 0.68752 (avg: 0.83886), lr: 0.0009990134
+[TRAIN 2/1000][4000/4227], loss: 0.90070 (avg: 0.83902), lr: 0.0009990134
+[TEST 2][0/190], loss: 0.572 (avg: 0.572)
+ * Epoch 2 TEST metrics: 0.72165, (best: 0.72105), loss: 1.16779, Top-5 acc: 0.90604
+saving best checkpoint (epoch: 2)
+[TRAIN 3/1000][0/4227], loss: 0.93584 (avg: 0.93584), lr: 0.0009977810

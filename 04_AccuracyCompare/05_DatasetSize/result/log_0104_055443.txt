@@ -1,0 +1,373 @@
+========================================
+              Arguments
+acc_plot: False
+ae_compress_rate: 16
+auto_encoder: False
+batch_size: 256
+device: cuda
+epochs: 1000
+evaluate: False
+fine_tuning: False
+freeze: True
+freeze_to: 4
+gpu: 0
+initial_lr: 0.001
+loss_plot: False
+lr_period: 100
+lr_scheduler_patience: 10
+lr_threshold: 1e-09
+num_class: 1000
+percent: 1
+print_freq: 500
+print_freq_val: 200
+result: result
+resume: stale_model.pth
+tr_step: 0
+weight_decay: 0.0005
+workers: 16
+========================================
+loaded stale_model.pth, epoch 122
+Freezing all params, insert AE...
+[TRAIN 0/1000][0/51], loss: 1.30083 (avg: 1.30083), lr: 0.0010000000
+[TEST 0][0/196], loss: 0.582 (avg: 0.582)
+ * Epoch 0 TEST metrics: 0.68588, (best: 0.68588), loss: 1.87012, Top-5 acc: 0.85202
+saving best checkpoint (epoch: 0)
+[TRAIN 1/1000][0/51], loss: 1.51977 (avg: 1.51977), lr: 0.0009997533
+[TEST 1][0/196], loss: 0.621 (avg: 0.621)
+ * Epoch 1 TEST metrics: 0.68344, (best: 0.68588), loss: 1.85990, Top-5 acc: 0.85002
+[TRAIN 2/1000][0/51], loss: 1.25245 (avg: 1.25245), lr: 0.0009990134
+[TEST 2][0/196], loss: 0.588 (avg: 0.588)
+ * Epoch 2 TEST metrics: 0.68400, (best: 0.68588), loss: 1.84259, Top-5 acc: 0.85086
+[TRAIN 3/1000][0/51], loss: 1.35069 (avg: 1.35069), lr: 0.0009977810
+[TEST 3][0/196], loss: 0.588 (avg: 0.588)
+ * Epoch 3 TEST metrics: 0.68474, (best: 0.68588), loss: 1.81332, Top-5 acc: 0.85110
+[TRAIN 4/1000][0/51], loss: 1.83442 (avg: 1.83442), lr: 0.0009960574
+[TEST 4][0/196], loss: 0.575 (avg: 0.575)
+ * Epoch 4 TEST metrics: 0.68380, (best: 0.68588), loss: 1.80647, Top-5 acc: 0.85042
+[TRAIN 5/1000][0/51], loss: 1.13399 (avg: 1.13399), lr: 0.0009938442
+[TEST 5][0/196], loss: 0.618 (avg: 0.618)
+ * Epoch 5 TEST metrics: 0.68208, (best: 0.68588), loss: 1.79177, Top-5 acc: 0.85006
+[TRAIN 6/1000][0/51], loss: 1.42046 (avg: 1.42046), lr: 0.0009911437
+[TEST 6][0/196], loss: 0.612 (avg: 0.612)
+ * Epoch 6 TEST metrics: 0.68340, (best: 0.68588), loss: 1.76399, Top-5 acc: 0.84944
+[TRAIN 7/1000][0/51], loss: 1.51440 (avg: 1.51440), lr: 0.0009879585
+[TEST 7][0/196], loss: 0.623 (avg: 0.623)
+ * Epoch 7 TEST metrics: 0.68268, (best: 0.68588), loss: 1.75780, Top-5 acc: 0.84956
+[TRAIN 8/1000][0/51], loss: 1.48583 (avg: 1.48583), lr: 0.0009842917
+[TEST 8][0/196], loss: 0.611 (avg: 0.611)
+ * Epoch 8 TEST metrics: 0.68292, (best: 0.68588), loss: 1.74572, Top-5 acc: 0.85022
+[TRAIN 9/1000][0/51], loss: 1.37566 (avg: 1.37566), lr: 0.0009801470
+[TEST 9][0/196], loss: 0.548 (avg: 0.548)
+ * Epoch 9 TEST metrics: 0.68362, (best: 0.68588), loss: 1.72667, Top-5 acc: 0.85112
+There is nearly no performance update, Reduce lr by a half!(epoch: 10)
+[TRAIN 10/1000][0/51], loss: 1.32767 (avg: 1.32767), lr: 0.0002926586
+[TEST 10][0/196], loss: 0.571 (avg: 0.571)
+ * Epoch 10 TEST metrics: 0.68104, (best: 0.68588), loss: 1.74106, Top-5 acc: 0.84942
+[TRAIN 11/1000][0/51], loss: 1.73336 (avg: 1.73336), lr: 0.0002911322
+[TEST 11][0/196], loss: 0.566 (avg: 0.566)
+ * Epoch 11 TEST metrics: 0.68300, (best: 0.68588), loss: 1.72319, Top-5 acc: 0.85004
+[TRAIN 12/1000][0/51], loss: 1.27028 (avg: 1.27028), lr: 0.0002894667
+[TEST 12][0/196], loss: 0.577 (avg: 0.577)
+ * Epoch 12 TEST metrics: 0.68348, (best: 0.68588), loss: 1.72640, Top-5 acc: 0.84974
+[TRAIN 13/1000][0/51], loss: 1.33439 (avg: 1.33439), lr: 0.0002876634
+[TEST 13][0/196], loss: 0.575 (avg: 0.575)
+ * Epoch 13 TEST metrics: 0.68246, (best: 0.68588), loss: 1.70917, Top-5 acc: 0.84986
+[TRAIN 14/1000][0/51], loss: 1.10431 (avg: 1.10431), lr: 0.0002857244
+[TEST 14][0/196], loss: 0.577 (avg: 0.577)
+ * Epoch 14 TEST metrics: 0.68266, (best: 0.68588), loss: 1.71406, Top-5 acc: 0.85018
+[TRAIN 15/1000][0/51], loss: 1.48244 (avg: 1.48244), lr: 0.0002836514
+[TEST 15][0/196], loss: 0.596 (avg: 0.596)
+ * Epoch 15 TEST metrics: 0.68348, (best: 0.68588), loss: 1.70676, Top-5 acc: 0.84976
+[TRAIN 16/1000][0/51], loss: 1.55384 (avg: 1.55384), lr: 0.0002814465
+[TEST 16][0/196], loss: 0.595 (avg: 0.595)
+ * Epoch 16 TEST metrics: 0.67972, (best: 0.68588), loss: 1.71228, Top-5 acc: 0.84708
+[TRAIN 17/1000][0/51], loss: 1.37880 (avg: 1.37880), lr: 0.0002791118
+[TEST 17][0/196], loss: 0.594 (avg: 0.594)
+ * Epoch 17 TEST metrics: 0.68328, (best: 0.68588), loss: 1.68922, Top-5 acc: 0.85098
+[TRAIN 18/1000][0/51], loss: 1.39835 (avg: 1.39835), lr: 0.0002766498
+[TEST 18][0/196], loss: 0.547 (avg: 0.547)
+ * Epoch 18 TEST metrics: 0.68248, (best: 0.68588), loss: 1.69221, Top-5 acc: 0.84988
+[TRAIN 19/1000][0/51], loss: 1.19643 (avg: 1.19643), lr: 0.0002740628
+[TEST 19][0/196], loss: 0.588 (avg: 0.588)
+ * Epoch 19 TEST metrics: 0.68086, (best: 0.68588), loss: 1.68646, Top-5 acc: 0.84872
+There is nearly no performance update, Reduce lr by a half!(epoch: 20)
+[TRAIN 20/1000][0/51], loss: 1.21645 (avg: 1.21645), lr: 0.0000814060
+[TEST 20][0/196], loss: 0.589 (avg: 0.589)
+ * Epoch 20 TEST metrics: 0.68318, (best: 0.68588), loss: 1.68158, Top-5 acc: 0.84992
+[TRAIN 21/1000][0/51], loss: 1.23671 (avg: 1.23671), lr: 0.0000805573
+[TEST 21][0/196], loss: 0.574 (avg: 0.574)
+ * Epoch 21 TEST metrics: 0.68364, (best: 0.68588), loss: 1.68624, Top-5 acc: 0.85094
+[TRAIN 22/1000][0/51], loss: 1.40750 (avg: 1.40750), lr: 0.0000796735
+[TEST 22][0/196], loss: 0.589 (avg: 0.589)
+ * Epoch 22 TEST metrics: 0.68314, (best: 0.68588), loss: 1.68159, Top-5 acc: 0.85022
+[TRAIN 23/1000][0/51], loss: 1.53120 (avg: 1.53120), lr: 0.0000787556
+[TEST 23][0/196], loss: 0.563 (avg: 0.563)
+ * Epoch 23 TEST metrics: 0.68228, (best: 0.68588), loss: 1.67872, Top-5 acc: 0.85042
+[TRAIN 24/1000][0/51], loss: 1.43796 (avg: 1.43796), lr: 0.0000778043
+[TEST 24][0/196], loss: 0.569 (avg: 0.569)
+ * Epoch 24 TEST metrics: 0.68326, (best: 0.68588), loss: 1.67801, Top-5 acc: 0.85072
+[TRAIN 25/1000][0/51], loss: 1.11290 (avg: 1.11290), lr: 0.0000768206
+[TEST 25][0/196], loss: 0.598 (avg: 0.598)
+ * Epoch 25 TEST metrics: 0.68218, (best: 0.68588), loss: 1.68456, Top-5 acc: 0.85016
+[TRAIN 26/1000][0/51], loss: 1.26425 (avg: 1.26425), lr: 0.0000758055
+[TEST 26][0/196], loss: 0.536 (avg: 0.536)
+ * Epoch 26 TEST metrics: 0.68224, (best: 0.68588), loss: 1.68346, Top-5 acc: 0.85024
+[TRAIN 27/1000][0/51], loss: 1.36530 (avg: 1.36530), lr: 0.0000747601
+[TEST 27][0/196], loss: 0.568 (avg: 0.568)
+ * Epoch 27 TEST metrics: 0.68120, (best: 0.68588), loss: 1.68102, Top-5 acc: 0.84964
+[TRAIN 28/1000][0/51], loss: 1.28538 (avg: 1.28538), lr: 0.0000736852
+[TEST 28][0/196], loss: 0.597 (avg: 0.597)
+ * Epoch 28 TEST metrics: 0.68272, (best: 0.68588), loss: 1.67396, Top-5 acc: 0.85032
+[TRAIN 29/1000][0/51], loss: 1.24572 (avg: 1.24572), lr: 0.0000725821
+[TEST 29][0/196], loss: 0.584 (avg: 0.584)
+ * Epoch 29 TEST metrics: 0.68224, (best: 0.68588), loss: 1.67303, Top-5 acc: 0.84946
+There is nearly no performance update, Reduce lr by a half!(epoch: 30)
+[TRAIN 30/1000][0/51], loss: 1.30066 (avg: 1.30066), lr: 0.0000214355
+[TEST 30][0/196], loss: 0.604 (avg: 0.604)
+ * Epoch 30 TEST metrics: 0.68148, (best: 0.68588), loss: 1.67952, Top-5 acc: 0.84892
+[TRAIN 31/1000][0/51], loss: 1.16963 (avg: 1.16963), lr: 0.0000210887
+[TEST 31][0/196], loss: 0.537 (avg: 0.537)
+ * Epoch 31 TEST metrics: 0.67722, (best: 0.68588), loss: 1.69886, Top-5 acc: 0.84758
+[TRAIN 32/1000][0/51], loss: 1.27316 (avg: 1.27316), lr: 0.0000207344
+[TEST 32][0/196], loss: 0.565 (avg: 0.565)
+ * Epoch 32 TEST metrics: 0.68278, (best: 0.68588), loss: 1.68028, Top-5 acc: 0.85088
+[TRAIN 33/1000][0/51], loss: 1.35772 (avg: 1.35772), lr: 0.0000203730
+[TEST 33][0/196], loss: 0.575 (avg: 0.575)
+ * Epoch 33 TEST metrics: 0.68418, (best: 0.68588), loss: 1.67935, Top-5 acc: 0.85044
+[TRAIN 34/1000][0/51], loss: 1.26114 (avg: 1.26114), lr: 0.0000200047
+[TEST 34][0/196], loss: 0.600 (avg: 0.600)
+ * Epoch 34 TEST metrics: 0.68114, (best: 0.68588), loss: 1.68093, Top-5 acc: 0.84986
+[TRAIN 35/1000][0/51], loss: 1.28859 (avg: 1.28859), lr: 0.0000196301
+[TEST 35][0/196], loss: 0.583 (avg: 0.583)
+ * Epoch 35 TEST metrics: 0.68118, (best: 0.68588), loss: 1.67678, Top-5 acc: 0.84940
+[TRAIN 36/1000][0/51], loss: 1.22349 (avg: 1.22349), lr: 0.0000192494
+[TEST 36][0/196], loss: 0.568 (avg: 0.568)
+ * Epoch 36 TEST metrics: 0.68236, (best: 0.68588), loss: 1.67088, Top-5 acc: 0.84946
+[TRAIN 37/1000][0/51], loss: 1.15310 (avg: 1.15310), lr: 0.0000188631
+[TEST 37][0/196], loss: 0.601 (avg: 0.601)
+ * Epoch 37 TEST metrics: 0.68080, (best: 0.68588), loss: 1.67073, Top-5 acc: 0.84916
+[TRAIN 38/1000][0/51], loss: 1.16537 (avg: 1.16537), lr: 0.0000184714
+[TEST 38][0/196], loss: 0.602 (avg: 0.602)
+ * Epoch 38 TEST metrics: 0.68144, (best: 0.68588), loss: 1.67708, Top-5 acc: 0.84938
+[TRAIN 39/1000][0/51], loss: 1.31519 (avg: 1.31519), lr: 0.0000180749
+[TEST 39][0/196], loss: 0.592 (avg: 0.592)
+ * Epoch 39 TEST metrics: 0.68178, (best: 0.68588), loss: 1.66705, Top-5 acc: 0.84988
+There is nearly no performance update, Reduce lr by a half!(epoch: 40)
+[TRAIN 40/1000][0/51], loss: 1.39751 (avg: 1.39751), lr: 0.0000053022
+[TEST 40][0/196], loss: 0.573 (avg: 0.573)
+ * Epoch 40 TEST metrics: 0.68154, (best: 0.68588), loss: 1.67268, Top-5 acc: 0.85030
+[TRAIN 41/1000][0/51], loss: 1.31721 (avg: 1.31721), lr: 0.0000051808
+[TEST 41][0/196], loss: 0.575 (avg: 0.575)
+ * Epoch 41 TEST metrics: 0.68110, (best: 0.68588), loss: 1.67937, Top-5 acc: 0.84948
+[TRAIN 42/1000][0/51], loss: 1.38705 (avg: 1.38705), lr: 0.0000050583
+[TEST 42][0/196], loss: 0.622 (avg: 0.622)
+ * Epoch 42 TEST metrics: 0.68168, (best: 0.68588), loss: 1.67448, Top-5 acc: 0.84940
+[TRAIN 43/1000][0/51], loss: 1.30398 (avg: 1.30398), lr: 0.0000049348
+[TEST 43][0/196], loss: 0.563 (avg: 0.563)
+ * Epoch 43 TEST metrics: 0.68294, (best: 0.68588), loss: 1.66597, Top-5 acc: 0.85062
+[TRAIN 44/1000][0/51], loss: 1.32844 (avg: 1.32844), lr: 0.0000048104
+[TEST 44][0/196], loss: 0.583 (avg: 0.583)
+ * Epoch 44 TEST metrics: 0.68146, (best: 0.68588), loss: 1.67832, Top-5 acc: 0.84894
+[TRAIN 45/1000][0/51], loss: 1.30883 (avg: 1.30883), lr: 0.0000046853
+[TEST 45][0/196], loss: 0.613 (avg: 0.613)
+ * Epoch 45 TEST metrics: 0.68136, (best: 0.68588), loss: 1.67645, Top-5 acc: 0.84896
+[TRAIN 46/1000][0/51], loss: 1.32437 (avg: 1.32437), lr: 0.0000045595
+[TEST 46][0/196], loss: 0.611 (avg: 0.611)
+ * Epoch 46 TEST metrics: 0.68240, (best: 0.68588), loss: 1.68005, Top-5 acc: 0.85020
+[TRAIN 47/1000][0/51], loss: 1.16988 (avg: 1.16988), lr: 0.0000044333
+[TEST 47][0/196], loss: 0.643 (avg: 0.643)
+ * Epoch 47 TEST metrics: 0.67980, (best: 0.68588), loss: 1.68579, Top-5 acc: 0.84878
+[TRAIN 48/1000][0/51], loss: 1.26866 (avg: 1.26866), lr: 0.0000043067
+[TEST 48][0/196], loss: 0.604 (avg: 0.604)
+ * Epoch 48 TEST metrics: 0.68056, (best: 0.68588), loss: 1.68255, Top-5 acc: 0.84940
+[TRAIN 49/1000][0/51], loss: 1.20627 (avg: 1.20627), lr: 0.0000041798
+[TEST 49][0/196], loss: 0.569 (avg: 0.569)
+ * Epoch 49 TEST metrics: 0.68254, (best: 0.68588), loss: 1.67874, Top-5 acc: 0.85012
+There is nearly no performance update, Reduce lr by a half!(epoch: 50)
+[TRAIN 50/1000][0/51], loss: 1.11268 (avg: 1.11268), lr: 0.0000012159
+[TEST 50][0/196], loss: 0.569 (avg: 0.569)
+ * Epoch 50 TEST metrics: 0.68240, (best: 0.68588), loss: 1.67262, Top-5 acc: 0.85060
+[TRAIN 51/1000][0/51], loss: 1.47055 (avg: 1.47055), lr: 0.0000011780
+[TEST 51][0/196], loss: 0.562 (avg: 0.562)
+ * Epoch 51 TEST metrics: 0.68088, (best: 0.68588), loss: 1.68209, Top-5 acc: 0.84926
+[TRAIN 52/1000][0/51], loss: 1.30346 (avg: 1.30346), lr: 0.0000011401
+[TEST 52][0/196], loss: 0.567 (avg: 0.567)
+ * Epoch 52 TEST metrics: 0.68314, (best: 0.68588), loss: 1.66522, Top-5 acc: 0.85058
+[TRAIN 53/1000][0/51], loss: 1.35070 (avg: 1.35070), lr: 0.0000011024
+[TEST 53][0/196], loss: 0.561 (avg: 0.561)
+ * Epoch 53 TEST metrics: 0.68156, (best: 0.68588), loss: 1.67437, Top-5 acc: 0.85042
+[TRAIN 54/1000][0/51], loss: 1.16802 (avg: 1.16802), lr: 0.0000010647
+[TEST 54][0/196], loss: 0.622 (avg: 0.622)
+ * Epoch 54 TEST metrics: 0.68220, (best: 0.68588), loss: 1.67710, Top-5 acc: 0.85024
+[TRAIN 55/1000][0/51], loss: 1.25482 (avg: 1.25482), lr: 0.0000010272
+[TEST 55][0/196], loss: 0.620 (avg: 0.620)
+ * Epoch 55 TEST metrics: 0.68220, (best: 0.68588), loss: 1.67398, Top-5 acc: 0.84990
+[TRAIN 56/1000][0/51], loss: 0.97964 (avg: 0.97964), lr: 0.0000009899
+[TEST 56][0/196], loss: 0.567 (avg: 0.567)
+ * Epoch 56 TEST metrics: 0.68390, (best: 0.68588), loss: 1.67133, Top-5 acc: 0.85094
+[TRAIN 57/1000][0/51], loss: 1.23961 (avg: 1.23961), lr: 0.0000009528
+[TEST 57][0/196], loss: 0.624 (avg: 0.624)
+ * Epoch 57 TEST metrics: 0.68184, (best: 0.68588), loss: 1.67546, Top-5 acc: 0.85000
+[TRAIN 58/1000][0/51], loss: 1.25229 (avg: 1.25229), lr: 0.0000009160
+[TEST 58][0/196], loss: 0.560 (avg: 0.560)
+ * Epoch 58 TEST metrics: 0.68240, (best: 0.68588), loss: 1.67012, Top-5 acc: 0.84960
+[TRAIN 59/1000][0/51], loss: 1.00927 (avg: 1.00927), lr: 0.0000008794
+[TEST 59][0/196], loss: 0.550 (avg: 0.550)
+ * Epoch 59 TEST metrics: 0.68066, (best: 0.68588), loss: 1.68696, Top-5 acc: 0.85064
+There is nearly no performance update, Reduce lr by a half!(epoch: 60)
+[TRAIN 60/1000][0/51], loss: 1.46245 (avg: 1.46245), lr: 0.0000002530
+[TEST 60][0/196], loss: 0.616 (avg: 0.616)
+ * Epoch 60 TEST metrics: 0.68022, (best: 0.68588), loss: 1.68166, Top-5 acc: 0.84794
+[TRAIN 61/1000][0/51], loss: 1.40836 (avg: 1.40836), lr: 0.0000002425
+[TEST 61][0/196], loss: 0.599 (avg: 0.599)
+ * Epoch 61 TEST metrics: 0.68226, (best: 0.68588), loss: 1.67111, Top-5 acc: 0.85006
+[TRAIN 62/1000][0/51], loss: 1.49081 (avg: 1.49081), lr: 0.0000002322
+[TEST 62][0/196], loss: 0.574 (avg: 0.574)
+ * Epoch 62 TEST metrics: 0.68278, (best: 0.68588), loss: 1.67341, Top-5 acc: 0.84980
+[TRAIN 63/1000][0/51], loss: 1.40485 (avg: 1.40485), lr: 0.0000002220
+[TEST 63][0/196], loss: 0.572 (avg: 0.572)
+ * Epoch 63 TEST metrics: 0.68148, (best: 0.68588), loss: 1.67549, Top-5 acc: 0.84914
+[TRAIN 64/1000][0/51], loss: 1.55794 (avg: 1.55794), lr: 0.0000002119
+[TEST 64][0/196], loss: 0.577 (avg: 0.577)
+ * Epoch 64 TEST metrics: 0.68184, (best: 0.68588), loss: 1.67295, Top-5 acc: 0.84998
+[TRAIN 65/1000][0/51], loss: 1.20963 (avg: 1.20963), lr: 0.0000002020
+[TEST 65][0/196], loss: 0.581 (avg: 0.581)
+ * Epoch 65 TEST metrics: 0.68404, (best: 0.68588), loss: 1.67633, Top-5 acc: 0.85052
+[TRAIN 66/1000][0/51], loss: 1.56147 (avg: 1.56147), lr: 0.0000001922
+[TEST 66][0/196], loss: 0.582 (avg: 0.582)
+ * Epoch 66 TEST metrics: 0.68360, (best: 0.68588), loss: 1.67791, Top-5 acc: 0.85068
+[TRAIN 67/1000][0/51], loss: 1.28249 (avg: 1.28249), lr: 0.0000001826
+[TEST 67][0/196], loss: 0.570 (avg: 0.570)
+ * Epoch 67 TEST metrics: 0.68324, (best: 0.68588), loss: 1.68188, Top-5 acc: 0.84976
+[TRAIN 68/1000][0/51], loss: 1.19397 (avg: 1.19397), lr: 0.0000001732
+[TEST 68][0/196], loss: 0.557 (avg: 0.557)
+ * Epoch 68 TEST metrics: 0.68402, (best: 0.68588), loss: 1.67931, Top-5 acc: 0.85052
+[TRAIN 69/1000][0/51], loss: 1.15716 (avg: 1.15716), lr: 0.0000001640
+[TEST 69][0/196], loss: 0.606 (avg: 0.606)
+ * Epoch 69 TEST metrics: 0.68152, (best: 0.68588), loss: 1.68059, Top-5 acc: 0.84962
+There is nearly no performance update, Reduce lr by a half!(epoch: 70)
+[TRAIN 70/1000][0/51], loss: 1.07643 (avg: 1.07643), lr: 0.0000000465
+[TEST 70][0/196], loss: 0.647 (avg: 0.647)
+ * Epoch 70 TEST metrics: 0.67874, (best: 0.68588), loss: 1.68698, Top-5 acc: 0.84698
+[TRAIN 71/1000][0/51], loss: 1.23098 (avg: 1.23098), lr: 0.0000000443
+[TEST 71][0/196], loss: 0.616 (avg: 0.616)
+ * Epoch 71 TEST metrics: 0.67794, (best: 0.68588), loss: 1.69111, Top-5 acc: 0.84692
+[TRAIN 72/1000][0/51], loss: 1.38100 (avg: 1.38100), lr: 0.0000000421
+[TEST 72][0/196], loss: 0.563 (avg: 0.563)
+ * Epoch 72 TEST metrics: 0.68288, (best: 0.68588), loss: 1.66905, Top-5 acc: 0.85038
+[TRAIN 73/1000][0/51], loss: 1.41074 (avg: 1.41074), lr: 0.0000000400
+[TEST 73][0/196], loss: 0.583 (avg: 0.583)
+ * Epoch 73 TEST metrics: 0.68234, (best: 0.68588), loss: 1.67637, Top-5 acc: 0.85006
+[TRAIN 74/1000][0/51], loss: 1.33441 (avg: 1.33441), lr: 0.0000000379
+[TEST 74][0/196], loss: 0.576 (avg: 0.576)
+ * Epoch 74 TEST metrics: 0.68276, (best: 0.68588), loss: 1.66961, Top-5 acc: 0.85098
+[TRAIN 75/1000][0/51], loss: 1.19837 (avg: 1.19837), lr: 0.0000000359
+[TEST 75][0/196], loss: 0.646 (avg: 0.646)
+ * Epoch 75 TEST metrics: 0.68234, (best: 0.68588), loss: 1.67350, Top-5 acc: 0.84946
+[TRAIN 76/1000][0/51], loss: 1.25980 (avg: 1.25980), lr: 0.0000000340
+[TEST 76][0/196], loss: 0.548 (avg: 0.548)
+ * Epoch 76 TEST metrics: 0.68108, (best: 0.68588), loss: 1.67488, Top-5 acc: 0.84954
+[TRAIN 77/1000][0/51], loss: 1.14015 (avg: 1.14015), lr: 0.0000000321
+[TEST 77][0/196], loss: 0.545 (avg: 0.545)
+ * Epoch 77 TEST metrics: 0.68320, (best: 0.68588), loss: 1.68075, Top-5 acc: 0.85062
+[TRAIN 78/1000][0/51], loss: 1.33099 (avg: 1.33099), lr: 0.0000000303
+[TEST 78][0/196], loss: 0.569 (avg: 0.569)
+ * Epoch 78 TEST metrics: 0.68326, (best: 0.68588), loss: 1.67426, Top-5 acc: 0.84976
+[TRAIN 79/1000][0/51], loss: 1.50921 (avg: 1.50921), lr: 0.0000000286
+[TEST 79][0/196], loss: 0.575 (avg: 0.575)
+ * Epoch 79 TEST metrics: 0.68116, (best: 0.68588), loss: 1.67936, Top-5 acc: 0.84886
+There is nearly no performance update, Reduce lr by a half!(epoch: 80)
+[TRAIN 80/1000][0/51], loss: 1.33159 (avg: 1.33159), lr: 0.0000000081
+[TEST 80][0/196], loss: 0.557 (avg: 0.557)
+ * Epoch 80 TEST metrics: 0.68146, (best: 0.68588), loss: 1.67596, Top-5 acc: 0.84988
+[TRAIN 81/1000][0/51], loss: 1.10029 (avg: 1.10029), lr: 0.0000000083
+[TEST 81][0/196], loss: 0.575 (avg: 0.575)
+ * Epoch 81 TEST metrics: 0.68214, (best: 0.68588), loss: 1.67221, Top-5 acc: 0.84976
+[TRAIN 82/1000][0/51], loss: 1.17987 (avg: 1.17987), lr: 0.0000000084
+[TEST 82][0/196], loss: 0.578 (avg: 0.578)
+ * Epoch 82 TEST metrics: 0.68170, (best: 0.68588), loss: 1.67422, Top-5 acc: 0.85012
+[TRAIN 83/1000][0/51], loss: 1.17812 (avg: 1.17812), lr: 0.0000000086
+[TEST 83][0/196], loss: 0.584 (avg: 0.584)
+ * Epoch 83 TEST metrics: 0.68258, (best: 0.68588), loss: 1.66658, Top-5 acc: 0.85038
+[TRAIN 84/1000][0/51], loss: 1.24316 (avg: 1.24316), lr: 0.0000000088
+[TEST 84][0/196], loss: 0.581 (avg: 0.581)
+ * Epoch 84 TEST metrics: 0.68200, (best: 0.68588), loss: 1.67394, Top-5 acc: 0.84934
+[TRAIN 85/1000][0/51], loss: 1.46392 (avg: 1.46392), lr: 0.0000000089
+[TEST 85][0/196], loss: 0.578 (avg: 0.578)
+ * Epoch 85 TEST metrics: 0.68260, (best: 0.68588), loss: 1.67556, Top-5 acc: 0.85066
+[TRAIN 86/1000][0/51], loss: 1.30925 (avg: 1.30925), lr: 0.0000000090
+[TEST 86][0/196], loss: 0.596 (avg: 0.596)
+ * Epoch 86 TEST metrics: 0.68206, (best: 0.68588), loss: 1.66289, Top-5 acc: 0.85062
+[TRAIN 87/1000][0/51], loss: 1.33452 (avg: 1.33452), lr: 0.0000000092
+[TEST 87][0/196], loss: 0.581 (avg: 0.581)
+ * Epoch 87 TEST metrics: 0.68198, (best: 0.68588), loss: 1.66837, Top-5 acc: 0.85036
+[TRAIN 88/1000][0/51], loss: 1.44865 (avg: 1.44865), lr: 0.0000000093
+[TEST 88][0/196], loss: 0.557 (avg: 0.557)
+ * Epoch 88 TEST metrics: 0.68288, (best: 0.68588), loss: 1.67968, Top-5 acc: 0.85028
+[TRAIN 89/1000][0/51], loss: 1.18720 (avg: 1.18720), lr: 0.0000000094
+[TEST 89][0/196], loss: 0.573 (avg: 0.573)
+ * Epoch 89 TEST metrics: 0.68196, (best: 0.68588), loss: 1.67669, Top-5 acc: 0.84966
+There is nearly no performance update, Reduce lr by a half!(epoch: 90)
+[TRAIN 90/1000][0/51], loss: 1.32864 (avg: 1.32864), lr: 0.0000000029
+[TEST 90][0/196], loss: 0.587 (avg: 0.587)
+ * Epoch 90 TEST metrics: 0.68266, (best: 0.68588), loss: 1.66990, Top-5 acc: 0.84986
+[TRAIN 91/1000][0/51], loss: 1.42218 (avg: 1.42218), lr: 0.0000000042
+[TEST 91][0/196], loss: 0.585 (avg: 0.585)
+ * Epoch 91 TEST metrics: 0.68350, (best: 0.68588), loss: 1.67455, Top-5 acc: 0.85030
+[TRAIN 92/1000][0/51], loss: 1.51144 (avg: 1.51144), lr: 0.0000000054
+[TEST 92][0/196], loss: 0.566 (avg: 0.566)
+ * Epoch 92 TEST metrics: 0.68258, (best: 0.68588), loss: 1.67347, Top-5 acc: 0.84980
+[TRAIN 93/1000][0/51], loss: 1.20375 (avg: 1.20375), lr: 0.0000000065
+[TEST 93][0/196], loss: 0.588 (avg: 0.588)
+ * Epoch 93 TEST metrics: 0.68290, (best: 0.68588), loss: 1.67775, Top-5 acc: 0.84962
+[TRAIN 94/1000][0/51], loss: 1.16993 (avg: 1.16993), lr: 0.0000000074
+[TEST 94][0/196], loss: 0.598 (avg: 0.598)
+ * Epoch 94 TEST metrics: 0.68034, (best: 0.68588), loss: 1.68268, Top-5 acc: 0.84888
+[TRAIN 95/1000][0/51], loss: 1.37958 (avg: 1.37958), lr: 0.0000000082
+[TEST 95][0/196], loss: 0.575 (avg: 0.575)
+ * Epoch 95 TEST metrics: 0.68256, (best: 0.68588), loss: 1.67257, Top-5 acc: 0.85042
+[TRAIN 96/1000][0/51], loss: 0.97225 (avg: 0.97225), lr: 0.0000000088
+[TEST 96][0/196], loss: 0.546 (avg: 0.546)
+ * Epoch 96 TEST metrics: 0.68286, (best: 0.68588), loss: 1.68004, Top-5 acc: 0.85064
+[TRAIN 97/1000][0/51], loss: 1.27762 (avg: 1.27762), lr: 0.0000000094
+[TEST 97][0/196], loss: 0.613 (avg: 0.613)
+ * Epoch 97 TEST metrics: 0.68254, (best: 0.68588), loss: 1.67542, Top-5 acc: 0.84962
+[TRAIN 98/1000][0/51], loss: 1.52424 (avg: 1.52424), lr: 0.0000000097
+[TEST 98][0/196], loss: 0.565 (avg: 0.565)
+ * Epoch 98 TEST metrics: 0.68292, (best: 0.68588), loss: 1.66761, Top-5 acc: 0.85034
+[TRAIN 99/1000][0/51], loss: 1.28964 (avg: 1.28964), lr: 0.0000000099
+[TEST 99][0/196], loss: 0.587 (avg: 0.587)
+ * Epoch 99 TEST metrics: 0.68298, (best: 0.68588), loss: 1.66397, Top-5 acc: 0.84992
+There is nearly no performance update, Reduce lr by a half!(epoch: 100)
+[TRAIN 100/1000][0/51], loss: 1.32216 (avg: 1.32216), lr: 0.0000000030
+[TEST 100][0/196], loss: 0.556 (avg: 0.556)
+ * Epoch 100 TEST metrics: 0.68296, (best: 0.68588), loss: 1.67069, Top-5 acc: 0.85034
+[TRAIN 101/1000][0/51], loss: 1.38296 (avg: 1.38296), lr: 0.0000000030
+[TEST 101][0/196], loss: 0.585 (avg: 0.585)
+ * Epoch 101 TEST metrics: 0.67862, (best: 0.68588), loss: 1.68835, Top-5 acc: 0.84780
+[TRAIN 102/1000][0/51], loss: 1.19069 (avg: 1.19069), lr: 0.0000000030
+[TEST 102][0/196], loss: 0.576 (avg: 0.576)
+ * Epoch 102 TEST metrics: 0.68240, (best: 0.68588), loss: 1.68069, Top-5 acc: 0.84988
+[TRAIN 103/1000][0/51], loss: 1.23857 (avg: 1.23857), lr: 0.0000000030
+[TEST 103][0/196], loss: 0.578 (avg: 0.578)
+ * Epoch 103 TEST metrics: 0.68280, (best: 0.68588), loss: 1.68228, Top-5 acc: 0.84964
+[TRAIN 104/1000][0/51], loss: 1.30806 (avg: 1.30806), lr: 0.0000000030
+[TEST 104][0/196], loss: 0.608 (avg: 0.608)
+ * Epoch 104 TEST metrics: 0.68264, (best: 0.68588), loss: 1.66677, Top-5 acc: 0.85012
+[TRAIN 105/1000][0/51], loss: 1.46944 (avg: 1.46944), lr: 0.0000000030
+[TEST 105][0/196], loss: 0.559 (avg: 0.559)
+ * Epoch 105 TEST metrics: 0.68320, (best: 0.68588), loss: 1.67319, Top-5 acc: 0.85110
+[TRAIN 106/1000][0/51], loss: 1.02284 (avg: 1.02284), lr: 0.0000000030
+[TEST 106][0/196], loss: 0.606 (avg: 0.606)
+ * Epoch 106 TEST metrics: 0.68316, (best: 0.68588), loss: 1.68003, Top-5 acc: 0.84978
+[TRAIN 107/1000][0/51], loss: 1.26500 (avg: 1.26500), lr: 0.0000000030
+[TEST 107][0/196], loss: 0.568 (avg: 0.568)
+ * Epoch 107 TEST metrics: 0.68210, (best: 0.68588), loss: 1.67845, Top-5 acc: 0.84892
+[TRAIN 108/1000][0/51], loss: 1.26684 (avg: 1.26684), lr: 0.0000000030
+[TEST 108][0/196], loss: 0.612 (avg: 0.612)
+ * Epoch 108 TEST metrics: 0.68198, (best: 0.68588), loss: 1.67724, Top-5 acc: 0.85010
+[TRAIN 109/1000][0/51], loss: 1.09340 (avg: 1.09340), lr: 0.0000000030
+[TEST 109][0/196], loss: 0.594 (avg: 0.594)
+ * Epoch 109 TEST metrics: 0.68202, (best: 0.68588), loss: 1.66794, Top-5 acc: 0.85018
+There is nearly no performance update, Reduce lr by a half!(epoch: 110)
+Transfer learning ended, insert auto-encoder, freeze all parameters(epoch: 110)
